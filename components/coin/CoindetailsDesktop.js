@@ -8,6 +8,8 @@ import { GiPodium } from "react-icons/gi";
 import { TiAttachment } from "react-icons/ti";
 import { BsSearch } from "react-icons/bs";
 import { HiOutlineCode } from "react-icons/hi";
+import { BsFacebook } from "react-icons/bs";
+import { AiFillTwitterCircle, AiFillRedditCircle } from "react-icons/ai";
 
 FiStar;
 
@@ -35,7 +37,7 @@ export default function CoindetailsDesktop() {
                       (BTC)
                     </span>
                   </div>
-                  <div className="flex items-center mt-6 space-x-2">
+                  <div className="flex items-center mt-6 space-x-5">
                     <GiPodium />
                     <span>Rank</span>
                     <span>#1</span>
@@ -57,25 +59,39 @@ export default function CoindetailsDesktop() {
               </div>
             </div>
             <div className="">
-              <div>
-                <div className="">
+              <div className=" mt-3 space-y-3 text-[20px] ">
+                <div className=" grid grid-cols-2 items-center space-x-1 ">
                   <TiAttachment />
-                  <span>https://react-icons.github.io/</span>
+                  <span className="text-blue-500">www.Bitcoin.org</span>
                 </div>
-                <div>
+                <div className=" grid grid-cols-2 items-center space-x-1">
                   <BsSearch />
-                  <span>https://react-icons.github.io/</span>
+                  <span className="whitespace-nowrap text-blue-500">
+                    BlockChair | btc
+                  </span>
                 </div>
-                <div>
+                <div className=" grid grid-cols-2 items-center space-x-1">
                   <FiShare2 />
-                  <span>https://react-icons.github.io/</span>
+                  <div className="flex space-x-2">
+                    <span className="flex text-[20px] text-[#4267B2] ">
+                      <BsFacebook />
+                    </span>
+                    <span className="flex text-[23px] text-[#2bc4ff] ">
+                      <AiFillTwitterCircle />
+                    </span>
+                    <span className="flex text-[23px] text-[#FF8700] ">
+                      <AiFillRedditCircle />
+                    </span>
+                  </div>
                 </div>
-                <div>
+                <div className=" grid grid-cols-2 items-center space-x-1  ">
                   <HiOutlineCode />
-                  <span>https://react-icons.github.io/</span>
+                  <span className="text-blue-500">GitHub</span>
                 </div>
+
                 {/* <div>coin</div> */}
               </div>
+              <div></div>
             </div>
           </div>
         </div>
