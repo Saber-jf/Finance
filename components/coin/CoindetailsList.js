@@ -1,18 +1,17 @@
 import React from "react";
-import btc from "../photo/btc.png";
-import btcChart from "../photo/btc-chart.svg";
+import Image from "next/image";
 
-export default function CoinListComponent() {
+export default function CoindetailsList() {
   return (
-    <div className="w-full">
+    <div className="w-full hover:scale-[1.09] transition-all  ">
       <div className="grid grid-cols-3 md:grid-cols-5 items-center w-full">
         <div className=" flex space-x-2 items-center justify-center ">
           <span className="text-xs text-[#707070] mx-1">1</span>
-          {/* <span className="w-6 h-6">
-            <img className="" src={btc} alt="btc" />
-          </span> */}
+          <div className="w-6 h-6">
+            <Image src="/image/btc.png" width={24} height={24} alt="btc" />
+          </div>
           <div className="flex flex-col">
-            <span className="font-semibold">BTC</span>
+            <span className="font-semibold text-gray-600 ">BTC</span>
             <span className="text-xs text-[#707070]">Bitcoin</span>
           </div>
         </div>
@@ -24,9 +23,9 @@ export default function CoinListComponent() {
           +2,20%
         </span>
         <span className="hidden md:flex justify-center">+2,20%</span>
-        {/* <div className="hidden md:flex justify-center">
-          <img className="" src={btcChart} alt="btcChart" />
-        </div> */}
+        <div className="hidden md:flex justify-center">
+          <Image src="/image/btc-chart.svg" width={100} height={50} alt="btc" />
+        </div>
       </div>
     </div>
   );

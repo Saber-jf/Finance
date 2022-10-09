@@ -22,7 +22,7 @@ export default function CoinBoxContainer() {
         </div>
         <div className="col-span-4 space-y-4 ml-3">
           <p className="font-bold">Popüler kripto paralar</p>
-          <div className="space-y-4">
+          <div className="space-y-4 text-base">
             <p>Tum işlem hacmi: $997.253 biliion</p>
             <p>24 saatlik işlem hacmi: $57.182 biliion</p>
             <p>BTC Piyasa Değeri : $57.182 biliion</p>

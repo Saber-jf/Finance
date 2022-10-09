@@ -10,13 +10,13 @@ function SearchBox() {
 
         <div className="flex flex-col justify-end px-5 w-full h-full max-w-7xl mx-auto ">
           <div className="">
-            <h1 className="text-[1.6rem] md:text-[3rem] font-bold text-white">
+            <h1 className="text-[1.6rem] md:text-[2rem] font-bold text-white">
               WelCome.
             </h1>
-            <p className=" text-[1.2rem] md:text-[2em] font-semibold text-white  ">
+            <span className=" text-[1.2rem] md:text-[1.5em] font-semibold text-white  ">
               Finance cafe'te 350'den fazla kripto parayı satın alın, saklayın
               ve alım-satım yapın
-            </p>
+            </span>
             <div className=" relative w-full text-[15px] md:text-[20px] mt-8  ">
               <input
                 placeholder="Search..."

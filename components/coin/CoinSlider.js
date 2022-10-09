@@ -23,12 +23,12 @@ export default function CoinSlider() {
           },
           400: {
             // width: 300,
-            slidesPerView: 2.4,
+            slidesPerView: 1.5,
           },
 
           768: {
             // width: 768,
-            slidesPerView: 2.4,
+            slidesPerView: 1.8,
           },
         }}
         spaceBetween={10}
